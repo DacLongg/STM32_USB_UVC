@@ -1,0 +1,5 @@
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_stream_parsing.c:71:6:video_stream_process_packet	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_stream_parsing.c:141:9:video_stream_switch_buffers	4	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_stream_parsing.c:169:6:video_stream_add_packet_data	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_stream_parsing.c:181:6:video_stream_init_buffers	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_stream_parsing.c:196:6:video_stream_ready_update	4	static

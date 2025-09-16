@@ -1,0 +1,5 @@
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_desc_parsing.c:23:20:USBH_VIDEO_FindStreamingIN	7
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_desc_parsing.c:67:20:USBH_VIDEO_ParseCSDescriptors	5
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_desc_parsing.c:122:20:ParseCSDescriptors	17
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_desc_parsing.c:216:6:USBH_VIDEO_AnalyseFormatDescriptors	6
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video_desc_parsing.c:264:6:USBH_VIDEO_AnalyseFrameDescriptors	9

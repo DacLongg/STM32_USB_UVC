@@ -1,0 +1,11 @@
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:55:27:USBH_VIDEO_InterfaceInit	56	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:160:20:USBH_VIDEO_InterfaceDeInit	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:186:27:USBH_VIDEO_ClassRequest	32	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:266:27:USBH_VIDEO_CSRequest	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:280:27:USBH_VIDEO_HandleCSRequest	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:299:27:USBH_VIDEO_ProcessDummy	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:311:20:USBH_VIDEO_Process	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:329:27:USBH_VIDEO_InputStream	32	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:378:27:USBH_VIDEO_SOFProcess	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:386:20:USBH_VS_SetCur	32	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/VIDEO/Src/usbh_video.c:424:20:USBH_VS_GetCur	32	static
