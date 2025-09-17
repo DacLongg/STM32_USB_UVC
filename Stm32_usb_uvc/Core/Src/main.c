@@ -128,7 +128,7 @@ int main(void)
 	{
 	  uvc_parsing_new_frame_ready = 0;
 	  HAL_UART_Transmit(&huart1, (uint8_t *)(uvc_ready_framebuffer_ptr), uvc_ready_frame_length, HAL_MAX_DELAY);
-
+	  HAL_SPI_Transmit_DMA(&hspi2, (uint8_t *)(uvc_ready_framebuffer_ptr), uvc_ready_frame_length);
 	  video_stream_ready_update();
 	}
 	else
@@ -208,7 +208,7 @@ static void MX_SPI2_Init(void)
   hspi2.Init.CLKPolarity = SPI_POLARITY_LOW;
   hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
   hspi2.Init.NSS = SPI_NSS_HARD_OUTPUT;
-  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi2.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
   hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
   hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
   hspi2.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
