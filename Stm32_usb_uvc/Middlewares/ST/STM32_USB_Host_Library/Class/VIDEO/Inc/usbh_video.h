@@ -21,7 +21,7 @@
 //#define UVC_CAPTURE_MODE                USBH_VIDEO_YUY2
    
 // Uncompressed image frame size in byte
-#define UVC_UNCOMP_FRAME_SIZE           (UVC_TARGET_WIDTH * UVC_TARGET_HEIGHT * 2)
+#define UVC_UNCOMP_FRAME_SIZE           20000
    
 #define UVC_MAX_FRAME_SIZE              UVC_UNCOMP_FRAME_SIZE
 //TODO - UVC_MAX_FRAME_SIZE for MJPEG mode can be smaller.

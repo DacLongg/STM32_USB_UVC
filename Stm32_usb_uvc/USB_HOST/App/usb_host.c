@@ -22,11 +22,11 @@
 
 #include "usb_host.h"
 #include "usbh_core.h"
-#include "usbh_audio.h"
-#include "usbh_cdc.h"
-#include "usbh_msc.h"
-#include "usbh_hid.h"
-#include "usbh_mtp.h"
+//#include "usbh_audio.h"
+//#include "usbh_cdc.h"
+//#include "usbh_msc.h"
+//#include "usbh_hid.h"
+//#include "usbh_mtp.h"
 /* USER CODE BEGIN Includes */
 #include "usbh_video.h"
 /* USER CODE END Includes */
